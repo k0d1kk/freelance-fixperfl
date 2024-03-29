@@ -1,0 +1,1690 @@
+@font-face {
+  font-family: 'TT Norms bold';
+  src: url('fonts/TTNorms-Bold.eot');
+  src: local('TT Norms Bold'), local('TTNorms-Bold'),
+    url('fonts/TTNorms-Bold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Bold.woff2') format('woff2'), url('fonts/TTNorms-Bold.woff') format('woff'),
+    url('fonts/TTNorms-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms thinitalic';
+  src: url('fonts/TTNorms-ThinItalic.eot');
+  src: local('TT Norms Thin Italic'), local('TTNorms-ThinItalic'),
+    url('fonts/TTNorms-ThinItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-ThinItalic.woff2') format('woff2'), url('fonts/TTNorms-ThinItalic.woff') format('woff'),
+    url('fonts/TTNorms-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms thin';
+  src: url('fonts/TTNorms-Thin.eot');
+  src: local('TT Norms Thin'), local('TTNorms-Thin'),
+    url('fonts/TTNorms-Thin.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Thin.woff2') format('woff2'), url('fonts/TTNorms-Thin.woff') format('woff'),
+    url('fonts/TTNorms-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms lightitalic';
+  src: url('fonts/TTNorms-LightItalic.eot');
+  src: local('TT Norms Light Italic'), local('TTNorms-LightItalic'),
+    url('fonts/TTNorms-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-LightItalic.woff2') format('woff2'),
+    url('fonts/TTNorms-LightItalic.woff') format('woff'),
+    url('fonts/TTNorms-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms extrabolditalic';
+  src: url('fonts/TTNorms-ExtraBoldItalic.eot');
+  src: local('TT Norms ExtraBold Italic'), local('TTNorms-ExtraBoldItalic'),
+    url('fonts/TTNorms-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-ExtraBoldItalic.woff2') format('woff2'),
+    url('fonts/TTNorms-ExtraBoldItalic.woff') format('woff'),
+    url('fonts/TTNorms-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms italic';
+  src: url('fonts/TTNorms-Italic.eot');
+  src: local('TT Norms Italic'), local('TTNorms-Italic'),
+    url('fonts/TTNorms-Italic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Italic.woff2') format('woff2'), url('fonts/TTNorms-Italic.woff') format('woff'),
+    url('fonts/TTNorms-Italic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms extralight';
+  src: url('fonts/TTNorms-ExtraLight.eot');
+  src: local('TT Norms ExtraLight'), local('TTNorms-ExtraLight'),
+    url('fonts/TTNorms-ExtraLight.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-ExtraLight.woff2') format('woff2'), url('fonts/TTNorms-ExtraLight.woff') format('woff'),
+    url('fonts/TTNorms-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms heavyitalic';
+  src: url('fonts/TTNorms-HeavyItalic.eot');
+  src: local('TT Norms Heavy Italic'), local('TTNorms-HeavyItalic'),
+    url('fonts/TTNorms-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-HeavyItalic.woff2') format('woff2'),
+    url('fonts/TTNorms-HeavyItalic.woff') format('woff'),
+    url('fonts/TTNorms-HeavyItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms mediumitalic';
+  src: url('fonts/TTNorms-MediumItalic.eot');
+  src: local('TT Norms Medium Italic'), local('TTNorms-MediumItalic'),
+    url('fonts/TTNorms-MediumItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-MediumItalic.woff2') format('woff2'),
+    url('fonts/TTNorms-MediumItalic.woff') format('woff'),
+    url('fonts/TTNorms-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms bolditalic';
+  src: url('fonts/TTNorms-BoldItalic.eot');
+  src: local('TT Norms Bold Italic'), local('TTNorms-BoldItalic'),
+    url('fonts/TTNorms-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-BoldItalic.woff2') format('woff2'), url('fonts/TTNorms-BoldItalic.woff') format('woff'),
+    url('fonts/TTNorms-BoldItalic.ttf') format('truetype');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms heavy';
+  src: url('fonts/TTNorms-Heavy.eot');
+  src: local('TT Norms Heavy'), local('TTNorms-Heavy'),
+    url('fonts/TTNorms-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Heavy.woff2') format('woff2'), url('fonts/TTNorms-Heavy.woff') format('woff'),
+    url('fonts/TTNorms-Heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms light';
+  src: url('fonts/TTNorms-Light.eot');
+  src: local('TT Norms Light'), local('TTNorms-Light'),
+    url('fonts/TTNorms-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Light.woff2') format('woff2'), url('fonts/TTNorms-Light.woff') format('woff'),
+    url('fonts/TTNorms-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms medium';
+  src: url('fonts/TTNorms-Medium.eot');
+  src: local('TT Norms Medium'), local('TTNorms-Medium'),
+    url('fonts/TTNorms-Medium.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Medium.woff2') format('woff2'), url('fonts/TTNorms-Medium.woff') format('woff'),
+    url('fonts/TTNorms-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms extrabold';
+  src: url('fonts/TTNorms-ExtraBold.eot');
+  src: local('TT Norms ExtraBold'), local('TTNorms-ExtraBold'),
+    url('fonts/TTNorms-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-ExtraBold.woff2') format('woff2'), url('fonts/TTNorms-ExtraBold.woff') format('woff'),
+    url('fonts/TTNorms-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms extralightitalic';
+  src: url('fonts/TTNorms-ExtraLightItalic.eot');
+  src: local('TT Norms ExtraLight Italic'), local('TTNorms-ExtraLightItalic'),
+    url('fonts/TTNorms-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-ExtraLightItalic.woff2') format('woff2'),
+    url('fonts/TTNorms-ExtraLightItalic.woff') format('woff'),
+    url('fonts/TTNorms-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms regular';
+  src: url('fonts/TTNorms-Regular.eot');
+  src: local('TT Norms Regular'), local('TTNorms-Regular'),
+    url('fonts/TTNorms-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Regular.woff2') format('woff2'), url('fonts/TTNorms-Regular.woff') format('woff'),
+    url('fonts/TTNorms-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TT Norms blacktalic';
+  src: url('fonts/TTNorms-BlackItalic.eot');
+  src: local('TT Norms Black Italic'), local('TTNorms-BlackItalic'),
+    url('fonts/TTNorms-BlackItalic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-BlackItalic.woff2') format('woff2'),
+    url('fonts/TTNorms-BlackItalic.woff') format('woff'),
+    url('fonts/TTNorms-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'TT Norms black';
+  src: url('fonts/TTNorms-Black.eot');
+  src: local('TT Norms Black'), local('TTNorms-Black'),
+    url('fonts/TTNorms-Black.eot?#iefix') format('embedded-opentype'),
+    url('fonts/TTNorms-Black.woff2') format('woff2'), url('fonts/TTNorms-Black.woff') format('woff'),
+    url('fonts/TTNorms-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --orange: rgb(255, 196, 100);
+  --purple: rgb(150, 49, 125);
+}
+
+html,
+body,
+a,
+li,
+ul,
+h1,
+h2,
+h3,
+p,
+sub,
+sup,
+button,
+span,
+form,
+div,
+section,
+textarea,
+input {
+  margin: 0;
+  padding: 0;
+  gap: 0;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+p {
+  font-size: 14px;
+  font-family: 'TT Norms medium', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-family: 'TT Norms bold', sans-serif;
+}
+
+body {
+  position: relative;
+}
+
+.container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.mobile-header {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  top: 20px;
+
+  @media (min-width: 1439px) {
+    display: none;
+  }
+}
+
+.mobile-header-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.mobile-header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgb(153, 71, 134);
+}
+
+.mobile-header-top > ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mobile-header-top > ul > li > a {
+  color: rgb(255, 255, 255);
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.mobile-header-geo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.mobile-header-geo > img {
+  width: 25px;
+  height: 20px;
+}
+
+.mobile-header-bott {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-header-bott > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  padding: 18px 40px;
+  color: var(--orange);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'TT Norms bold', sans-serif;
+}
+
+.header {
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  top: 20px;
+  display: none;
+
+  @media (min-width: 1439px) {
+    display: block;
+  }
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: start;
+  gap: 90px;
+}
+
+.header-left > ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-left > ul > li > a {
+  color: rgb(255, 255, 255);
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.header-geo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100px;
+  justify-content: center;
+}
+
+.header-geo > img {
+  width: 25px;
+  height: 20px;
+}
+
+.header-right {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  gap: 40px;
+  align-items: center;
+}
+
+.header-btn > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  padding: 18px 40px;
+  color: var(--orange);
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'TT Norms bold', sans-serif;
+}
+
+.banner {
+  height: 1000px;
+  width: 100%;
+  background-image: url('content/banner-bg.webp');
+  background-color: rgb(169, 80, 148);
+  background-size: 220%;
+  background-position-x: 0;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  position: relative;
+
+  @media (min-width: 767px) {
+    background-size: 150%;
+    background-position-x: 90px;
+    height: 1100px;
+  }
+
+  @media (min-width: 1023px) {
+    background-size: 120%;
+    background-position-x: 170px;
+  }
+
+  @media (min-width: 1439px) {
+    background-position-x: 0;
+    height: 1000px;
+  }
+}
+
+.banner-wrapper {
+  position: absolute;
+  top: 230px;
+  width: 80%;
+
+  @media (min-width: 767px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+  }
+
+  @media (min-width: 1439px) {
+    margin-left: auto;
+    width: 45%;
+    text-align: start;
+  }
+}
+
+.banner-wrapper > h1 {
+  @media (min-width: 1439px) {
+    font-size: 67px;
+    font-family: 'TT Norms extrabold', sans-serif;
+    color: white;
+  }
+}
+
+.banner-wrapper > p > span {
+  color: var(--orange);
+}
+
+.banner-wrapper > p {
+  font-size: 18px;
+  font-family: 'TT Norms regular', sans-serif;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
+  @media (min-width: 767px) {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: 1439px) {
+    font-size: 24px;
+  }
+}
+
+.banner-wrapper > a {
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  padding: 18px 40px;
+  font-family: 'TT Norms bold', sans-serif;
+  border: none;
+
+  @media (min-width: 1439px) {
+    margin-right: auto;
+  }
+}
+
+.open {
+  width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+
+  @media (min-width: 1439px) {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: -90px;
+    position: relative;
+    z-index: 4;
+  }
+}
+
+.open-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  @media (min-width: 1439px) {
+    flex-direction: row;
+  }
+}
+
+.open-text-desktop {
+  display: none;
+
+  @media (min-width: 1439px) {
+    display: flex;
+    flex-direction: row;
+    text-wrap: nowrap;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    gap: 6px;
+  }
+}
+
+.open-text-desktop > span {
+  color: var(--orange);
+}
+
+.open-text {
+  display: flex;
+  width: 100%;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.open-text > h2 {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  position: relative;
+
+  @media (min-width: 1439px) {
+    display: none;
+  }
+}
+
+.open-text > h2 > span {
+  color: var(--orange);
+}
+
+.open-circle {
+  position: absolute;
+  top: 3px;
+  left: 32px;
+  align-items: center;
+  background: rgb(120, 194, 62);
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
+  margin-top: 6px;
+
+  @media (min-width: 1439px) {
+    display: none;
+  }
+}
+
+.open-wrapper > a {
+  color: var(--orange);
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  @media (min-width: 1439px) {
+    width: 100%;
+    text-wrap: nowrap;
+  }
+}
+
+.dignity {
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  @media (min-width: 1439px) {
+    margin-top: 40px;
+  }
+}
+
+.dignity-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+
+  @media (min-width: 767px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1439px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+}
+
+.dignity-card {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  @media (min-width: 1439px) {
+    flex-direction: column;
+  }
+}
+
+.dignity-card > div {
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 1439px) {
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    height: 110px;
+  }
+}
+
+.dignity-card > div > img {
+  width: 110px;
+  height: 75px;
+  @media (min-width: 1439px) {
+    width: 100%;
+    max-width: 130px;
+    height: 90px;
+  }
+}
+
+.dignity-card > h2 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-weight: 500;
+  color: black;
+  font-size: 20px;
+  width: 230px;
+
+  @media (min-width: 1439px) {
+    height: 70px;
+    text-align: start;
+    width: 100%;
+  }
+}
+
+.price {
+  display: none;
+  @media (min-width: 767px) {
+    display: block;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+}
+
+.price-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price-wrapper > table {
+  color: black;
+  width: 100%;
+  text-align: start;
+  border-spacing: 40px;
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 16px;
+
+  @media (min-width: 1439px) {
+    width: 80%;
+  }
+}
+
+.price-wrapper > table > tbody > tr {
+  width: 40%;
+  align-items: center;
+}
+
+.price-wrapper > table > tbody > tr,
+th {
+  border-bottom: 1px solid rgb(236, 236, 236);
+  padding-bottom: 40px;
+}
+
+.price-wrapper > table > tbody > tr > th {
+  text-align: start;
+}
+
+.price-wrapper > table > tbody > tr > th > span {
+  color: var(--purple);
+}
+
+.price-title {
+  margin-bottom: 30px;
+
+  @media (min-width: 1439px) {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+}
+
+.price-title > h1 {
+  color: #000;
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 30px;
+}
+
+.price-mobile {
+  margin-top: 60px;
+
+  @media (min-width: 767px) {
+    display: none;
+  }
+}
+
+.price-mobile-title {
+  margin-bottom: 30px;
+}
+
+.price-mobile-title > h1 {
+  color: #000;
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 30px;
+}
+
+.price-mobile-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.price-mobile-card {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(236, 236, 236);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.price-mobile-card > h2 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: start;
+  width: 100%;
+}
+
+.price-mobile-card > div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-mobile-card > div > p {
+  font-family: 'TT Norms regular', sans-serif;
+  font-display: 18px;
+  color: rgb(0, 0, 0);
+}
+
+.price-mobile-card > div > h3 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  color: #96317d;
+}
+
+.price-mobile-card > div > h4 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.masters {
+  background: rgb(250, 250, 250), rgb(250, 230, 245);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.masters-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.masters-title > h2 {
+  color: rgb(150, 49, 125);
+  font-size: 18px;
+  font-family: 'TT Norms regular', sans-serif;
+}
+
+.masters-title > h1 {
+  font-size: 30px;
+  color: black;
+  font-family: 'TT Norms bold', sans-serif;
+  letter-spacing: -1.5%;
+  text-align: center;
+}
+
+.masters-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (min-width: 767px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (min-width: 1439px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.masters-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 360px;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 30px;
+}
+
+.masters-card-text {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.masters-card-text > h3 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 8px;
+}
+
+.masters-card-text > p {
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.masters-card-text > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-left: 12px;
+}
+
+.masters-card-text > ul > li {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 16px;
+  list-style: url('content/list-style.webp');
+  color: rgb(150, 49, 125);
+}
+
+.reviews {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+
+.reviews-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reviews-wrapper > h1 {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.reviews-cards {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  @media (min-width: 1439px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.reviews-card {
+  background: rgb(250, 250, 250);
+  padding: 30px;
+}
+
+.reviews-card > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-width: 290px;
+  margin-right: auto;
+  gap: 30px;
+}
+
+.reviews-card > div > img {
+  width: 65px;
+  height: 65px;
+}
+
+.reviews-card > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  gap: 8px;
+}
+
+.reviews-card > div > div > h3 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  color: black;
+}
+
+.reviews-card > div > div > p {
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.reviews-card > p {
+  color: black;
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.grade {
+  background: rgb(250, 250, 250), rgb(250, 230, 245);
+  padding: 75px 0;
+}
+
+.grade-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+
+  @media (min-width: 1439px) {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+  }
+}
+
+.grade-card {
+  background-color: white;
+  border-radius: 15px;
+  width: 100%;
+  max-width: 360px;
+  padding: 20px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grade-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: flex-start;
+  max-width: 150px;
+}
+
+.grade-text > div {
+  display: flex;
+  gap: 7px;
+}
+
+.grade-text > div > img {
+  width: 24px;
+  height: 25px;
+}
+
+.grade-text > div > h2 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 25px;
+  color: black;
+}
+
+.grade-text > div > h2 > span {
+  font-size: 22px;
+  font-family: 'TT Norms medium', sans-serif;
+  color: black;
+}
+
+.grade-text > p {
+  font-size: 16px;
+  color: black;
+  font-family: 'TT Norms regular', sans-serif;
+}
+
+.grade-line {
+  height: 65px;
+  width: 0px;
+  border: 1px solid rgb(227, 227, 227);
+}
+
+.grade-img {
+  width: 120px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ques {
+  padding-bottom: 75px;
+  padding-top: 75px;
+}
+
+.ques-title {
+  margin-bottom: 40px;
+}
+
+.ques-title > h1 {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 30px;
+  text-align: start;
+  color: black;
+  margin-bottom: 30px;
+
+  @media (min-width: 1439px) {
+    font-size: 40px;
+  }
+}
+
+.ques-title > p {
+  color: black;
+  font-size: 18px;
+  font-family: 'TT Norms regular', sans-serif;
+  text-align: start;
+}
+
+.ques-title > p > a {
+  color: var(--purple);
+  text-decoration: underline;
+  font-size: 18px;
+  font-family: 'TT Norms regular', sans-serif;
+  text-align: start;
+}
+
+.ques-flex {
+  @media (min-width: 1439px) {
+    flex-direction: row;
+    display: flex;
+    gap: 60px;
+  }
+}
+
+.ques-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.ques-card {
+  border-radius: 5px;
+  background: rgb(250, 250, 250);
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: start;
+  gap: 30px;
+}
+
+.ques-card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.ques-card-title > h2 {
+  color: rgb(33, 33, 33);
+  font-size: 18px;
+  font-family: 'TT Norms medium', sans-serif;
+}
+
+.ques-card-title > div {
+  background: rgb(150, 49, 125);
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-family: 'TT Norms bold', sans-serif;
+  transform: rotate(90deg);
+  border-radius: 100%;
+}
+
+.ques-card-title > div > p {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  font-family: 'TT Norms bold', sans-serif;
+  margin-bottom: 4px;
+}
+
+.ques-card > p {
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.form {
+  background-image: url('content/form-bg.webp');
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-card {
+  background-color: white;
+  border-radius: 15px;
+  width: 90%;
+  height: auto;
+  padding: 75px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media (min-width: 1439px) {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
+
+.form-text {
+  margin-bottom: 20px;
+
+  @media (min-width: 1439px) {
+    margin-bottom: 0;
+    margin-right: auto;
+    text-align: start;
+  }
+}
+
+.form-text > h1 {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 30px;
+  color: rgb(23, 23, 23);
+  text-align: center;
+  margin-bottom: 15px;
+
+  @media (min-width: 1439px) {
+    text-align: start;
+    font-size: 40px;
+  }
+}
+
+.form-text > p {
+  font-size: 16px;
+  font-family: 'TT Norms medium', sans-serif;
+  color: black;
+}
+
+.form-text > p > span {
+  font-size: 16px;
+  font-family: 'TT Norms medium', sans-serif;
+  color: var(--purple);
+}
+
+.form-card > form {
+  @media (min-width: 1439px) {
+    flex-direction: row;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.form-card > form > input {
+  width: 80%;
+  padding: 19px 30px;
+  display: flex;
+  align-items: flex-start;
+  text-align: start;
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  color: black;
+  border-radius: 15px;
+  margin-bottom: 16px;
+  border: 0;
+  background: rgb(245, 245, 245);
+
+  @media (min-width: 1439px) {
+    height: 69px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+.form-card > form > input::placeholder {
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  color: #171717;
+}
+
+.form-card > form > button {
+  background-color: var(--purple);
+  color: white;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 16px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  width: 100%;
+  border: 0;
+
+  @media (min-width: 1439px) {
+    height: 69px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+.contacts {
+  padding: 75px 0;
+}
+
+.contacts > div > h1 {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 30px;
+  color: black;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: 1439px) {
+    display: none;
+  }
+}
+
+.contacts-dk-t {
+  display: none;
+
+  @media (min-width: 1439px) {
+    font-family: 'TT Norms bold', sans-serif;
+    font-size: 40px;
+    color: black;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    text-align: start;
+  }
+}
+
+.contacts-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+
+  @media (min-width: 1439px) {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+  }
+}
+
+.contacts-map {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.contacts-map > iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.contacts-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-start;
+  justify-content: start;
+  width: 100%;
+
+  @media (min-width: 1023px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  @media (min-width: 1439px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.contacts-st {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+  align-items: flex-start;
+  text-align: start;
+
+  @media (min-width: 1439px) {
+    text-align: start;
+  }
+}
+
+.contacts-st > div > h2 {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: start;
+  margin-bottom: 10px;
+
+  @media (min-width: 1439px) {
+    text-align: start;
+  }
+}
+
+.contacts-st > div > p {
+  text-align: start;
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 16px;
+  color: black;
+}
+
+.contacts-mail {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100%;
+
+  @media (min-width: 1023px) {
+    align-items: flex-end;
+  }
+
+  @media (min-width: 1439px) {
+    align-items: flex-start;
+  }
+}
+
+.contacts-mail > h3 {
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  color: black;
+  text-align: start;
+}
+
+.contacts-mail > a {
+  box-sizing: border-box;
+  border: 2px solid rgb(153, 50, 128);
+  border-radius: 15px;
+  color: var(--purple);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: auto;
+  padding: 18px 40px;
+  background-color: none;
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 16px;
+  width: 180px;
+}
+
+.footer {
+  padding-bottom: 120px;
+
+  @media (min-width: 1439px) {
+    padding-bottom: 60px;
+  }
+}
+
+.footer-logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+
+  @media (min-width: 1439px) {
+    margin-bottom: 30px;
+  }
+}
+
+.footer-wrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-wrapper > ul > li > a {
+  color: black;
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.footer-wrapper > ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.footer-pay {
+  @media (min-width: 1439px) {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: rgb(250, 250, 250);
+    width: 100%;
+    justify-content: space-around;
+    gap: 30px;
+  }
+}
+
+.footer-pay > h3 {
+  width: 100%;
+  color: #000;
+  font-family: 'TT Norms medium', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @media (min-width: 1439px) {
+    margin-bottom: 0;
+    width: 60%;
+    margin-left: auto;
+    text-align: end;
+  }
+}
+
+.footer-pay-wrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  gap: 30px;
+
+  @media (min-width: 767px) {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+
+  @media (min-width: 1439px) {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 0;
+  }
+}
+
+.footer-pay-card {
+  background: rgb(250, 250, 250);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 92px;
+  height: 50px;
+}
+
+.footer-wrapper > h2 {
+  font-family: 'TT Norms regular', sans-serif;
+  color: black;
+  text-align: center;
+  width: 100%;
+  font-size: 16px;
+  margin-top: 90px;
+}
+
+.privacy {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.privacy-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  color: black;
+  gap: 15px;
+}
+
+.privacy-wrapper > h1 {
+  font-family: 'TT Norms bold', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.privacy-wrapper > p {
+  color: black;
+  font-size: 22px;
+  font-family: 'TT Norms regular', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.privacy-wrapper > p > span {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.terms {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.terms-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  color: black;
+  gap: 15px;
+}
+
+.terms-wrapper > h1 {
+  font-family: 'TT Norms bold', sans-serif;
+  color: black;
+  font-size: 30px;
+}
+
+.terms-wrapper > p {
+  color: black;
+  font-size: 22px;
+  font-family: 'TT Norms regular', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.terms-wrapper > p > span {
+  font-family: 'TT Norms bold', sans-serif;
+  font-size: 26px;
+  font-weight: 800;
+}
+
+.main-button-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid var(--orange);
+  border-radius: 15px;
+  padding: 18px 40px;
+  color: white;
+  width: 300px;
+  margin-top: 80px;
+  margin-left: 100px;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: var(--orange);
+  font-family: 'TT Norms bold', sans-serif;
+}
+
+.success {
+  position: relative;
+  z-index: 999;
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.success-card {
+  border: 2px solid var(--purple);
+  padding: 20px 25px;
+  border-radius: 10px;
+  background-color: var(--purple);
+}
+
+.success-card > h1 {
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  font-family: 'TT Norms regular', sans-serif;
+}
+
+.success-card > p {
+  font-family: 'TT Norms regular', sans-serif;
+  font-size: 24px;
+}
+
+.success-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-btn > a {
+  background: #161418;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 16px 12px;
+  text-wrap: wrap;
+  width: 80%;
+  border-radius: 3px;
+  font-size: 24px;
+  font-family: 'TT Norms regular', sans-serif;
+}
